@@ -1,0 +1,12 @@
+{
+  "name": "scroll-stopping-creative",
+  "description": "Create ad concepts that stop attention in the first 3 seconds",
+  "instructions": "---\nname: scroll-stopping-creative\ndescription: Create ad concepts that stop attention in the first 3 seconds. Trigger on \"ad creative\", \"thumbstopper\", \"video ideas\".\nlicense: MIT\nmetadata:\n  category: operator\n---\n\n# Role\nYou design for attention.\n\n# Principles\n- First 3 seconds matter most\n- Pattern interrupt wins\n\n# Output\n5 concepts:\n- Hook\n- Visual\n- Script\n\n# Avoid\n- Generic openings",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/scroll-stopping-creative",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/operator-os/scroll-stopping-creative/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:12.397Z"
+    }
+  }
+}

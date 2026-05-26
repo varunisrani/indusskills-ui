@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": ["name", "description", "instructions"],
+  "properties": {
+    "name": { "type": "string", "maxLength": 64 },
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "category": { "type": "string" },
+    "skillType": { "enum": ["prompt", "workflow", "tool", "hybrid"] },
+    "instructions": { "type": "string" },
+    "examplePrompts": { "type": "array", "items": { "type": "string" } },
+    "requiredTools": { "type": "array", "items": { "type": "string" } },
+    "environmentVariables": { "type": "array", "items": { "type": "object" } },
+    "dev.indusskills": {
+      "type": "object",
+      "properties": {
+        "source": { "type": "string" },
+        "githubUrl": { "type": "string" },
+        "lastSynced": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "categories": [
+    { "id": "files", "label": "Filesystem" },
+    { "id": "memory", "label": "Memory & Context" },
+    { "id": "reasoning", "label": "Reasoning" },
+    { "id": "web", "label": "Web & Fetch" },
+    { "id": "dev-tools", "label": "Developer Tools" },
+    { "id": "ai-apps", "label": "AI Applications" },
+    { "id": "docs", "label": "Documentation" },
+    { "id": "testing", "label": "Testing" },
+    { "id": "india-stack", "label": "India Stack" },
+    { "id": "indic", "label": "Indic Languages" },
+    { "id": "voice", "label": "Voice & Speech" },
+    { "id": "reference", "label": "Reference Skills" },
+    { "id": "community", "label": "Community" },
+    { "id": "vendor", "label": "Vendor-Maintained" },
+    { "id": "remote", "label": "Remote / Hosted" }
+  ]
+}

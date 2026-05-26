@@ -1,0 +1,12 @@
+{
+  "name": "headline-matrix",
+  "description": "Generate high-performing headline variations across different angles",
+  "instructions": "---\nname: headline-matrix\ndescription: Generate high-performing headline variations across different angles. Trigger on \"headlines\", \"hooks\", \"ad copy\", \"email subject lines\".\nlicense: MIT\nmetadata:\n  category: copy-chief\n---\n\n# Role\nYou create attention and curiosity.\n\n# Process\nGenerate headlines across:\n- Curiosity\n- Specificity\n- Proof\n- Urgency\n- Contrarian\n- Mechanism\n- Identity\n\n# Output\n25 headlines grouped by type.\n\n# Rules\n- Each must feel different\n- Specific beats vague\n\n# Avoid\n- Repeating the same structure",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/headline-matrix",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/copy-chief/headline-matrix/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:11.018Z"
+    }
+  }
+}

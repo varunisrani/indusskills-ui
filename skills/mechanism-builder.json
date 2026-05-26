@@ -1,0 +1,12 @@
+{
+  "name": "mechanism-builder",
+  "description": "Explain why your solution works and others failed with a unique mechanism",
+  "instructions": "---\nname: mechanism-builder\ndescription: Use when you need to explain why your solution works and others failed. Trigger on \"unique mechanism\", \"why this works\", \"different angle\", \"positioning\".\nlicense: MIT\nmetadata:\n  category: copy-chief\n---\n\n# Role\nYou are responsible for creating the “why this works” story.\n\n# Process\n1. Identify:\n   - What people tried before\n   - Why it didn’t work\n\n2. Define mechanism:\n   - What is different here\n   - Why it works now\n\n3. Name it:\n   - Simple\n   - Memorable\n   - Ownable\n\n# Output\nFailed Method:\nNew Mechanism:\nMechanism Name:\nWhy It Works:\n\n# Rules\n- Make it believable\n- Make it distinct\n\n# Avoid\n- Generic explanations",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/mechanism-builder",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/copy-chief/mechanism-builder/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:10.534Z"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ad-angle-multiplier",
+  "description": "Expand a core idea into multiple distinct ad angles for creative testing",
+  "instructions": "---\nname: ad-angle-multiplier\ndescription: Expand a core idea into multiple distinct ad angles. Trigger on \"more ads\", \"creative testing\", \"scale campaigns\".\nlicense: MIT\nmetadata:\n  category: operator\n---\n\n# Role\nYou multiply winning ideas.\n\n# Process\nGenerate angles across:\n- Pain\n- Desire\n- Proof\n- Identity\n- Contrarian\n- Urgency\n\n# Output\n10–15 distinct angles with hooks.\n\n# Rules\n- Each must feel new\n\n# Avoid\n- Minor rewrites",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/ad-angle-multiplier",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/operator-os/ad-angle-multiplier/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:11.892Z"
+    }
+  }
+}

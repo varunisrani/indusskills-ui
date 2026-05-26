@@ -1,0 +1,12 @@
+{
+  "name": "objection-crusher",
+  "description": "Identify and neutralize buyer objections and hesitation",
+  "instructions": "---\nname: objection-crusher\ndescription: Identify and neutralize buyer objections. Trigger on \"why wouldn't someone buy\", \"objections\", \"hesitation\", \"conversion issues\".\nlicense: MIT\nmetadata:\n  category: copy-chief\n---\n\n# Role\nYou remove resistance to action.\n\n# Process\n1. List objections:\n   - Price\n   - Time\n   - Trust\n   - Complexity\n   - Past failures\n\n2. Reframe each:\n   - Logic\n   - Proof\n   - Emotion\n\n# Output\nObjections + Responses\n\n# Rules\n- Address real concerns\n- Be honest\n\n# Avoid\n- Ignoring objections",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/objection-crusher",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/copy-chief/objection-crusher/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:11.436Z"
+    }
+  }
+}

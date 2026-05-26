@@ -1,0 +1,12 @@
+{
+  "name": "generic-language-killer",
+  "description": "Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording",
+  "instructions": "---\nname: generic-language-killer\ndescription: Remove vague, corporate, or AI-sounding language and replace it with clear, specific, human wording. Trigger on \"improve copy\", \"sounds generic\", \"too fluffy\".\nlicense: MIT\nmetadata:\n  category: qa\n---\n\n# Role\nYou remove weak language.\n\n# Process\n1. Identify:\n   - Generic phrases\n   - Fluff\n   - Buzzwords\n\n2. Replace with:\n   - Specifics\n   - Real language\n   - Direct statements\n\n# Output\nRewritten copy\n\n# Rules\n- Clear > clever\n- Human > polished\n\n# Avoid\n- Corporate tone",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/generic-language-killer",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/qa/generic-language-killer/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:14.190Z"
+    }
+  }
+}

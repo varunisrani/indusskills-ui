@@ -1,0 +1,12 @@
+{
+  "name": "cuopt-server-common",
+  "description": "cuOpt REST server — what it does and how requests flow.",
+  "instructions": "---\nname: cuopt-server-common\nversion: \"26.08.00\"\ndescription: cuOpt REST server — what it does and how requests flow. Domain concepts; no deploy or client code.\n---\n\n\n# cuOpt Server (common)\n\nDomain concepts for the cuOpt REST server. No deploy commands or client code here.\n\n## What the server does\n\n- Accepts optimization requests (routing, LP, MILP) over HTTP.\n- Returns a request ID; solution is obtained by polling with that ID.\n- Does **not** support QP via REST.\n\n## Problem types supported\n\n| Problem type | Supported |\n|--------------|:---------:|\n| Routing      | ✓         |\n| LP           | ✓         |\n| MILP         | ✓         |\n| QP           | ✗         |\n\n## Request flow (conceptual)\n\n1. Client sends problem data in the required schema (matrices, tasks, fleet, solver config).\n2. Server returns a `reqId`.\n3. Client polls the solution endpoint with `reqId` until the job completes.\n4. Response contains status and, on success, solution (routes, objective, primal values, etc.).\n\n## Required questions (deployment and usage)\n\nAsk these if not already clear:\n\n1. **Problem type** — Routing or LP/MILP? (QP not available.)\n2. **Deployment** — Local, Docker, Kubernetes, or cloud?\n3. **Client** — Which language or tool will call the API (e.g. Python, curl, another service)?\n\n## Key endpoints (conceptual)\n\n- Health check.\n- Submit request (POST).\n- Get solution by request ID (GET).\n- OpenAPI spec (e.g. for payload format).\n",
+  "dev": {
+    "indusskills": {
+      "source": "NVIDIA/cuopt/cuopt-server-common",
+      "githubUrl": "https://raw.githubusercontent.com/NVIDIA/skills/main/skills/cuopt/cuopt-server-common/SKILL.md",
+      "lastSynced": "2026-05-26T05:38:02.625Z"
+    }
+  }
+}

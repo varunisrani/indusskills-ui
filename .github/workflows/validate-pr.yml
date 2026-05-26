@@ -1,0 +1,29 @@
+name: Validate PR
+
+on:
+  pull_request:
+    paths:
+      - "skills/**"
+      - "schemas/**"
+      - "scripts/**"
+      - "lib/schema.ts"
+      - "package.json"
+      - "pnpm-lock.yaml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - name: Validate skill.json files against the official schema
+        run: pnpm validate-skills
+      - name: Verify npm mcpName matches skill.name
+        run: pnpm verify-mcpname

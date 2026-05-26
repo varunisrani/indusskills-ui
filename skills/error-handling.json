@@ -1,0 +1,12 @@
+{
+  "name": "error-handling",
+  "description": "Error handling guidelines for NeMo-RL.",
+  "instructions": "---\nname: error-handling\ndescription: Error handling guidelines for NeMo-RL. Covers exception specificity, minimal try bodies, and else blocks.\nwhen_to_use: Writing or reviewing exception handling; 'try-except', 'catch all exceptions', 'bare except', 'how to handle errors', during code review.\n---\n\n# Error Handling\n\n## Use Specific Exceptions\n\nWhen using try-except blocks, limit the except to the smallest set of errors possible.\n\n**Don't:**\n```python\ntry:\n    open(path, \"r\").read()\nexcept:\n    print(\"Failed to open file\")\n```\n\n**Do:**\n```python\ntry:\n    open(path, \"r\").read()\nexcept FileNotFoundError:\n    print(\"Failed to open file\")\n```\n",
+  "dev": {
+    "indusskills": {
+      "source": "NVIDIA/NeMo-RL/error-handling",
+      "githubUrl": "https://raw.githubusercontent.com/NVIDIA/skills/main/skills/NeMo-RL/error-handling/SKILL.md",
+      "lastSynced": "2026-05-26T05:37:34.158Z"
+    }
+  }
+}

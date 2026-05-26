@@ -1,0 +1,12 @@
+{
+  "name": "avatar-extraction",
+  "description": "Define exactly who the buyer is, what they want, what they've tried, and what's driving their decisions",
+  "instructions": "---\nname: avatar-extraction\ndescription: Use when you need to define exactly who the buyer is, what they want, what they’ve tried, and what’s driving their decisions. Trigger on \"target audience\", \"ideal client\", \"who is this for\", \"avatar\", \"customer profile\".\nlicense: MIT\nmetadata:\n  category: foundation\n  outputs:\n    - primary-avatar\n    - pains\n    - desires\n    - failed-solutions\n---\n\n# Role\nYou are a buyer psychologist. Your job is to define a real, specific person — not a demographic.\n\n# Process\n1. Identify:\n   - Who they are (life, job, stage)\n   - What they are trying to achieve\n   - What’s frustrating them daily\n\n2. Extract:\n   - What they’ve already tried\n   - Why those attempts failed\n   - What they believe about their problem\n\n3. Surface:\n   - Emotional drivers (fear, frustration, desire)\n   - Hidden motivations (status, control, relief)\n\n# Output\nPrimary Avatar:\n- Description:\n- Current Situation:\n- Pain Points:\n- Desired Outcome:\n- Failed Attempts:\n- Emotional Drivers:\n\n# Rules\n- Be specific enough to picture the person\n- Use real-world language\n- Focus on decision context\n\n# Avoid\n- Broad demographics\n- Vague descriptions",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/avatar-extraction",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/foundations/avatar-extraction/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:09.172Z"
+    }
+  }
+}

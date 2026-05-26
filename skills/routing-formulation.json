@@ -1,0 +1,12 @@
+{
+  "name": "routing-formulation",
+  "description": "Vehicle routing (VRP, TSP, PDP) — problem types and data requirements.",
+  "instructions": "---\nname: routing-formulation\nversion: \"26.08.00\"\ndescription: Vehicle routing (VRP, TSP, PDP) — problem types and data requirements. Domain concepts; no API or interface.\n---\n\n\n# Routing Formulation\n\nDomain concepts for vehicle routing. No API or interface details here.\n\n## What is routing\n\n- **TSP**: Single vehicle, visit all locations once (e.g. shortest tour).\n- **VRP**: Multiple vehicles, capacity and/or time limits; assign orders to vehicles and sequence stops.\n- **PDP**: Pickup and delivery pairs; pickup must be visited before the corresponding delivery.\n\n## Required questions (problem and data)\n\nAsk these if not already clear:\n\n1. **Problem type** — TSP, VRP, or PDP?\n2. **Locations** — How many? Depot(s)? Cost or distance between pairs (matrix or derived)?\n3. **Orders / tasks** — Which locations must be visited? Demand or service per stop?\n4. **Fleet** — Number of vehicles, capacity per vehicle (and per dimension if multiple), start/end locations?\n5. **Constraints** — Time windows (earliest/latest arrival), service times, precedence (order A before B)?\n\n## Typical data\n\n- Cost or distance matrix (or travel-time matrix).\n- Order locations and, for VRP, demand per order.\n- Vehicle capacities and optional time windows for vehicles and orders.\n",
+  "dev": {
+    "indusskills": {
+      "source": "NVIDIA/cuopt/routing-formulation",
+      "githubUrl": "https://raw.githubusercontent.com/NVIDIA/skills/main/skills/cuopt/routing-formulation/SKILL.md",
+      "lastSynced": "2026-05-26T05:38:04.042Z"
+    }
+  }
+}

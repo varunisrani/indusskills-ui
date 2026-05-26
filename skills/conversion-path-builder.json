@@ -1,0 +1,12 @@
+{
+  "name": "conversion-path-builder",
+  "description": "Design the optimal funnel from click to conversion and booked calls",
+  "instructions": "---\nname: conversion-path-builder\ndescription: Design the optimal funnel from click to conversion. Trigger on \"funnel\", \"conversion path\", \"booked calls\".\nlicense: MIT\nmetadata:\n  category: operator\n---\n\n# Role\nYou reduce friction and increase conversion.\n\n# Process\n1. Choose path:\n   - Direct call\n   - Lead magnet\n   - VSL\n\n2. Map steps:\n   - Entry\n   - Trust\n   - Conversion\n\n# Output\nFunnel Map + Structure\n\n# Rules\n- Simplicity wins\n\n# Avoid\n- Overcomplication",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/conversion-path-builder",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/operator-os/conversion-path-builder/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:12.811Z"
+    }
+  }
+}

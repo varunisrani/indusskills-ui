@@ -1,0 +1,12 @@
+{
+  "name": "copyright",
+  "description": "NVIDIA copyright header requirements for NeMo-RL.",
+  "instructions": "---\nname: copyright\ndescription: NVIDIA copyright header requirements for NeMo-RL. Covers which files need headers and the exact header text.\nwhen_to_use: Adding a new file; checking copyright headers; 'missing copyright', 'NVIDIA header', 'license header', 'is a header required here', during code review.\n---\n\n# NVIDIA Copyright Header\n\nAdd the following NVIDIA copyright header to all Python files and shell scripts. The header should include the current year. Exclude test files (files under `tests/` or test-only scripts).\n\nThe header must appear at the top of the file. **Always use the current year** (not a hardcoded year):\n\n```python\n# Copyright (c) <CURRENT_YEAR>, NVIDIA CORPORATION.  All rights reserved.\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this file except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n```\n",
+  "dev": {
+    "indusskills": {
+      "source": "NVIDIA/NeMo-RL/copyright",
+      "githubUrl": "https://raw.githubusercontent.com/NVIDIA/skills/main/skills/NeMo-RL/copyright/SKILL.md",
+      "lastSynced": "2026-05-26T05:37:33.360Z"
+    }
+  }
+}

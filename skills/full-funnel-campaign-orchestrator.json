@@ -1,0 +1,12 @@
+{
+  "name": "full-funnel-campaign-orchestrator",
+  "description": "Coordinate all skills to build a complete ads + funnel campaign end-to-end",
+  "instructions": "---\nname: full-funnel-campaign-orchestrator\ndescription: Coordinate all skills to build a complete advertising campaign. Trigger on \"build a campaign\", \"full funnel\", \"ads + funnel\".\nlicense: MIT\nmetadata:\n  category: orchestrator\n---\n\n# Role\nYou orchestrate specialists.\n\n# Flow\n1. avatar-extraction\n2. offer-extraction\n3. schwartz-awareness-mapper\n4. mechanism-builder\n5. ad-angle-multiplier\n6. scroll-stopping-creative\n7. conversion-path-builder\n8. objection-crusher\n9. generic-language-killer\n\n# Output\n- Strategy\n- Ads\n- Funnel\n- Messaging\n\n# Rules\n- Follow sequence\n- Maintain consistency",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/full-funnel-campaign-orchestrator",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/orchestrators/full-funnel-campaign-orchestrator/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:13.741Z"
+    }
+  }
+}

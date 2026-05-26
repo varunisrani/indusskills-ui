@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "description": "Documentation conventions for NeMo-RL.",
+  "instructions": "---\nname: docs\ndescription: Documentation conventions for NeMo-RL. Covers docs/index.md updates and docstring format.\nwhen_to_use: Adding or updating documentation; adding a new markdown file; reviewing docstrings; 'docs/index.md', 'docstring format', 'Sphinx', 'where do I add docs', during code review.\n---\n\n# Documentation Conventions\n\n## Keep docs/index.md Up to Date\n\nWhen a new markdown doc is added under `docs/**/*.md` or a markdown file is renamed, ensure that @docs/index.md is updated and the document appears in the most appropriate section.\n\n## Docstring Format\n\nUse [Google style](https://google.github.io/styleguide/pyguide.html) docstrings for classes and functions. These are parseable by Sphinx.\n\nFor interfaces that may be used outside a file, prefer docstrings over comments. Comments should be reserved for code within a function or interfaces local to a file.\n\n## Document New Features\n\nWhen a new feature is added, update or create documentation in the `docs/` directory that most closely matches the feature. Look at existing docs to find the best fit — if none exists, create a new doc and add it to @docs/index.md.\n\nDocumentation changes are **not required** for bug fixes or CI-related changes.\n",
+  "dev": {
+    "indusskills": {
+      "source": "NVIDIA/NeMo-RL/docs",
+      "githubUrl": "https://raw.githubusercontent.com/NVIDIA/skills/main/skills/NeMo-RL/docs/SKILL.md",
+      "lastSynced": "2026-05-26T05:37:33.791Z"
+    }
+  }
+}

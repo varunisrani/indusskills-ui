@@ -1,0 +1,13 @@
+{
+  "name": "IndusSkills",
+  "description": "Local-first MCP registry for India Stack",
+  "apiVersion": "v0",
+  "apiBase": "https://www.indusskills.dev/api/v0",
+  "license": "Apache-2.0",
+  "publicRepo": "https://github.com/varunisrani/indusskills",
+  "cli": {
+    "npm": "indusskills",
+    "homepage": "https://www.npmjs.com/package/indusskills",
+    "install": "indusskills install <skill-name>"
+  }
+}

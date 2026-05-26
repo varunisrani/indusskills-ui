@@ -1,0 +1,12 @@
+{
+  "name": "performance-diagnosis",
+  "description": "Diagnose why campaigns are underperforming — low conversion, high CPL, bad ads",
+  "instructions": "---\nname: performance-diagnosis\ndescription: Diagnose why campaigns are underperforming. Trigger on \"low performance\", \"high CPL\", \"bad ads\".\nlicense: MIT\nmetadata:\n  category: operator\n---\n\n# Role\nYou find the bottleneck.\n\n# Process\nCheck:\n1. Offer\n2. Audience\n3. Creative\n4. Funnel\n5. Sales\n\n# Output\nRoot Cause + Fix\n\n# Rules\n- Diagnose before changing\n\n# Avoid\n- Guessing",
+  "dev": {
+    "indusskills": {
+      "source": "realkimbarrett/performance-diagnosis",
+      "githubUrl": "https://raw.githubusercontent.com/realkimbarrett/advertising-skills/main/skills/operator-os/performance-diagnosis/SKILL.md",
+      "lastSynced": "2026-05-26T05:36:13.384Z"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.next
+.vercel
+.git
+.DS_Store
+*.log
+notes.txt
+HANDOFF.md
+DEPLOY.md
+.github
+CLAUDE.md
+AGENTS.md

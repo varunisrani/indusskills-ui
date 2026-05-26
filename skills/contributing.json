@@ -1,0 +1,12 @@
+{
+  "name": "contributing",
+  "description": "Contribution conventions for NeMo-RL.",
+  "instructions": "---\nname: contributing\ndescription: Contribution conventions for NeMo-RL. Covers PR title format, commit sign-off, and CI triggering.\nwhen_to_use: Opening a PR; writing a commit message; triggering CI; 'PR title format', 'sign-off', 'conventional commits', 'how do I trigger CI', during code review of PR process.\n---\n\n# Contributing Conventions\n\n## PR Title Format\n\nPR titles **must** follow the [Conventional Commits](https://www.conventionalcommits.org/) spec. This is enforced by the `semantic-pull-request` CI check.\n\n```\n<type>[optional scope]: <description>\n```\n\nAllowed types:\n\n| Type | When to use |\n|------|-------------|\n| `feat` | New feature |\n| `fix` | Bug fix |\n| `ci` | CI/CD changes |\n| `docs` | Documentation only |\n| `refactor` | Code restructuring without behaviour change |\n| `test` | Adding or fixing tests |\n| `chore` | Maintenance (deps, configs, tooling) |\n| `perf` | Performance improvement |\n| `build` | Build system changes |\n| `revert` | Reverts a previous commit |\n\n**Do:**\n```\nci: retry apt-get installs to handle mirror sync failures\nfeat(grpo): add dataclass config defaults infrastructure\nfix: preserve RAY_EXPERIMENTAL_NOSET_CUDA_VISIBLE_DEVICES\n```\n\n**Don't:**\n```\n[ci] fix: retry apt-get installs   ← area tags are not part of this convention\nUpdate stuff\nFix bug\n```\n\n## Commit Sign-off\n\nAll commits must be signed off with `-s`:\n\n```bash\ngit commit -s -m \"fix: correct reward normalization\"\n```\n\n## CI Triggering\n\nAfter pushing, trigger CI with:\n\n```\n/ok to test <full-commit-sha>\n```\n\nUse `git rev-parse HEAD` (not the short form) to get the full SHA.\n",
+  "dev": {
+    "indusskills": {
+      "source": "NVIDIA/NeMo-RL/contributing",
+      "githubUrl": "https://raw.githubusercontent.com/NVIDIA/skills/main/skills/NeMo-RL/contributing/SKILL.md",
+      "lastSynced": "2026-05-26T05:37:32.936Z"
+    }
+  }
+}
