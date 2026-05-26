@@ -305,10 +305,10 @@ function ConnectSection() {
           <CodeBlock
             lines={[
               <>
-                <span className="tok-cmd">npm</span> install -g <span className="tok-arg">indusskills</span>
+                <span className="tok-cmd">npm</span> install -g <span className="tok-arg">@indusagi/skills</span>
               </>,
               <>
-                <span className="tok-arg">indusskills search</span> <span className="tok-str">filesystem</span>
+                <span className="tok-arg">npx @indusagi/skills search</span> <span className="tok-str">filesystem</span>
               </>,
             ]}
           />
@@ -318,7 +318,7 @@ function ConnectSection() {
                 <span className="tok-com"># pick a client: claude · claude-code · cursor · vscode · indusagi</span>
               </>,
               <>
-                <span className="tok-arg">indusskills install</span> <span className="tok-str">{"<skill-name>"}</span>{" "}
+                <span className="tok-arg">npx @indusagi/skills install</span> <span className="tok-str">{"<skill-name>"}</span>{" "}
                 --client <span className="tok-arg">claude-code</span>
               </>,
             ]}

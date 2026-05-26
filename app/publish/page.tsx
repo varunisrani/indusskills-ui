@@ -241,7 +241,7 @@ export default function PublishPage() {
         <pre className="code-block" style={{ margin: 0, fontSize: 12.5, maxWidth: 420 }}>
           <span style={{ color: "var(--text-muted)" }}>$ </span>
           <span style={{ color: "var(--code-blue)" }}>npm</span> install -g{" "}
-          <span style={{ color: "var(--text-primary)" }}>indusskills</span>
+          <span style={{ color: "var(--text-primary)" }}>@indusagi/skills</span>
         </pre>
       </div>
     </div>

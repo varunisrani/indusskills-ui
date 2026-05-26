@@ -45,7 +45,7 @@ export function Nav() {
             opacity="0.7"
           />
         </svg>
-        v0.1.6
+        v0.1.0
       </span>
 
       <span className="nav-spacer" />
@@ -57,7 +57,7 @@ export function Nav() {
         <Link href="/publish" className={isActive(pathname, "/publish") ? "active" : ""}>
           Publish
         </Link>
-        <a href="https://www.npmjs.com/package/indusskills" target="_blank" rel="noreferrer">
+        <a href="https://www.npmjs.com/package/@indusagi/skills" target="_blank" rel="noreferrer">
           npm
         </a>
       </div>
@@ -151,7 +151,7 @@ export function Nav() {
           >
             Publish
           </Link>
-          <a href="https://www.npmjs.com/package/indusskills" onClick={close}>
+          <a href="https://www.npmjs.com/package/@indusagi/skills" onClick={close}>
             npm
           </a>
         </div>

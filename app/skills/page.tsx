@@ -472,7 +472,7 @@ export default async function SkillsPage({
               lineHeight: 1.5,
             }}
           >
-            Your credentials never leave your machine. `indusskills install` writes config directly to your client's local config file.
+            Your credentials never leave your machine. `npx @indusagi/skills install` writes config directly to your client's local config file.
           </p>
         </div>
       </aside>

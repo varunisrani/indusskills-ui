@@ -266,7 +266,7 @@ export default async function SkillDetailPage({
               <CodeBlock
                 lines={[
                   <>
-                    <span className="tok-cmd">npm</span> install -g <span className="tok-arg">indusskills</span>
+                    <span className="tok-cmd">npm</span> install -g <span className="tok-arg">@indusagi/skills</span>
                   </>,
                 ]}
               />
@@ -308,12 +308,12 @@ export default async function SkillDetailPage({
               </p>
               <div style={{ display: "flex", gap: 10, marginTop: 24, flexWrap: "wrap" }}>
                 <a
-                  href="https://www.npmjs.com/package/indusskills"
+                  href="https://www.npmjs.com/package/@indusagi/skills"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
                 >
-                  📦 npm install -g indusskills
+                  📦 npm install -g @indusagi/skills
                 </a>
               </div>
             </div>

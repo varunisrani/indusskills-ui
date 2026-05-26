@@ -12,7 +12,7 @@ export function Footer() {
     {
       h: "CLI",
       l: [
-        { label: "npm", href: "https://www.npmjs.com/package/indusskills", external: true },
+        { label: "npm", href: "https://www.npmjs.com/package/@indusagi/skills", external: true },
       ],
     },
     {

@@ -58,7 +58,7 @@ export function ClientInstaller({
   const [active, setActive] = useState(defaultClient);
   const [copied, setCopied] = useState(false);
   const client = CLIENTS.find((c) => c.id === active) ?? CLIENTS[0];
-  const command = `indusskills install ${skillName} --client ${client.flag}`;
+  const command = `npx @indusagi/skills install ${skillName} --client ${client.flag}`;
 
   const copy = async () => {
     try {
@@ -134,7 +134,7 @@ export function ClientInstaller({
           }}
         >
           <span style={{ color: "var(--text-muted)" }}>$ </span>
-          <span style={{ color: "var(--code-blue)" }}>indusskills</span>{" "}
+          <span style={{ color: "var(--code-blue)" }}>npx @indusagi/skills</span>{" "}
           <span>install</span>{" "}
           <span style={{ color: "var(--code-green)" }}>{skillName}</span>{" "}
           --client <span style={{ color: "var(--accent-primary)" }}>{client.flag}</span>
